@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ATSOU Claudio — Développeur Web & Mobile Full Stack</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- Alert pour le formulaire -->
+  <div class="alert" id="formAlert"></div>
+
+  <nav class="nav" id="nav">
+    <a href="#hero" class="nav-logo">
+      <span>AC</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="#hero">Accueil</a></li>
+      <li><a href="#about">À propos</a></li>
+      <li><a href="#skills">Compétences</a></li>
+      <li><a href="#projects">Projets</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <a href="mailto:atsouclaudio@gmail.com" class="nav-cta">Contact</a>
+    <button class="nav-burger" id="navBurger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <section class="hero" id="hero">
+    <div class="hero-badge">
+      <span class="badge-dot"></span>
+      Disponible pour des projets
+    </div>
+
+    <div class="hero-content">
+      <p class="hero-greeting">Bonjour, je suis</p>
+      <h1 class="hero-name">ATSOU Claudio<br>De Valera Washington</h1>
+      <p class="hero-desc">Passionné par la technologie et les jeux vidéo, j'apprends à développer des applications web et mobiles innovantes avec un souci constant de performance et d'expérience utilisateur.</p>
+
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary">Voir mes projets</a>
+        <a href="cv.pdf" class="btn btn-outline" download>↓ Télécharger CV</a>
+      </div>
+
+      <div class="hero-socials">
+        <a href="https://github.com/atsouclaudio" target="_blank" class="social-link">
+          <img src="icons/github-original.svg" alt="GitHub" />GitHub
+        </a>
+<a href="https://www.linkedin.com/in/claudio-de-valera-washington-atsou-6a94942b6/" target="_blank" class="social-link">
+          <img src="icons/linkedin-original.svg" alt="LinkedIn" />LinkedIn
+        </a>
+      </div>
+    </div>
+
+    <div class="hero-visual">
+      <div class="hero-photo-wrap">
+        <img src="profil.jpeg" alt="Photo de profil" class="hero-photo" />
+        <div class="hero-photo-tag">
+          <span class="tag-title">ClaudioDev</span>
+          <span class="tag-sub">Full Stack Dev</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-scroll">
+      <span>Défiler</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="section-label">Qui suis-je</div>
+    <h2 class="section-title">À Propos</h2>
+
+    <div class="about-grid">
+      <div class="about-text">
+        <p>Je suis <strong>ATSOU Claudio</strong>, passionné par la création d'expériences numériques de qualité.</p>
+        <p>Passionné par la technologie et les jeux vidéo, j'apprends activement à développer des applications web et mobiles avec un souci constant de performance.</p>
+        <p>Je suis constamment en train d'explorer de nouvelles technologies pour rester à la pointe et améliorer mes compétences.</p>
+
+        <div class="about-contacts">
+          <a href="mailto:atsouclaudio@gmail.com" class="about-contact-link">✉ atsouclaudio@gmail.com</a>
+          <a href="tel:+22899940424" class="about-contact-link">📞 +228 99 94 04 24</a>
+        </div>
+      </div>
+
+      <div class="about-stats">
+        <div class="stat-card">
+          <span class="stat-number" data-target="4">0</span>
+          <span class="stat-label">Projets réalisés</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-number" data-target="2">0</span>
+<span class="stat-label">Mois d'expérience</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-number" data-target="4">0</span>
+          <span class="stat-label">Services proposés</span>
+        </div>
+        <div class="stat-card">
+<span class="stat-number" data-target="10">0</span>
+          <span class="stat-label">Technologies maîtrisées</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="services-label">Ce que je fais</div>
+    <h3 class="services-title">Mes Services</h3>
+    <div class="services-grid">
+      <div class="service-card">
+        <span class="service-icon">🌐</span>
+        <h4>Création de Sites Web</h4>
+        <p>Des interfaces modernes, performantes et accessibles, pensées pour convertir et engager.</p>
+        <span class="service-num">01</span>
+      </div>
+      <div class="service-card">
+        <span class="service-icon">⚡</span>
+        <h4>Création d'API</h4>
+        <p>Des backends robustes et scalables avec Django, PHP et Python.</p>
+        <span class="service-num">02</span>
+      </div>
+      <div class="service-card">
+        <span class="service-icon">🍽️</span>
+        <h4>Gestion de Restaurant</h4>
+        <p>Applications de gestion de restaurant avec Java pour une gestion efficace.</p>
+        <span class="service-num">03</span>
+      </div>
+      <div class="service-card">
+        <span class="service-icon">📱</span>
+        <h4>Développement Mobile</h4>
+        <p>Applications cross-platform fluides avec Flutter pour iOS et Android.</p>
+        <span class="service-num">04</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="skills" id="skills">
+    <div class="section-label">Mon arsenal technique</div>
+    <h2 class="section-title">Compétences.</h2>
+
+    <div class="skills-categories">
+
+<div class="skill-cat">
+        <div class="skill-cat-header">
+          <span class="cat-name">Langages</span>
+          <span class="cat-count">05</span>
+        </div>
+        <div class="skill-icons">
+          <div class="skill-item"><img src="icons/javascript-original.svg" alt="JavaScript" /><span>JavaScript</span></div>
+          <div class="skill-item"><img src="icons/python-original.svg" alt="Python" /><span>Python</span></div>
+          <div class="skill-item"><img src="icons/java-original.svg" alt="Java" /><span>Java</span></div>
+          <div class="skill-item"><img src="icons/html5-original.svg" alt="HTML" /><span>HTML</span></div>
+          <div class="skill-item"><img src="icons/css3-original.svg" alt="CSS" /><span>CSS</span></div>
+        </div>
+      </div>
+
+<div class="skill-cat">
+        <div class="skill-cat-header">
+          <span class="cat-name">Backend</span>
+          <span class="cat-count">02</span>
+        </div>
+        <div class="skill-icons">
+          <div class="skill-item"><img src="icons/php-plain.svg" alt="PHP" /><span>PHP</span></div>
+          <div class="skill-item"><img src="icons/django-plain.svg" alt="Django" /><span>Django</span></div>
+        </div>
+      </div>
+
+<div class="skill-cat">
+        <div class="skill-cat-header">
+          <span class="cat-name">Mobile</span>
+          <span class="cat-count">02</span>
+        </div>
+        <div class="skill-icons">
+          <div class="skill-item"><img src="icons/cplusplus-original.svg" alt="C++" /><span>C++</span></div>
+          <div class="skill-item"><img src="icons/flutter-original.svg" alt="Flutter" /><span>Flutter</span></div>
+        </div>
+      </div>
+
+<div class="skill-cat">
+        <div class="skill-cat-header">
+          <span class="cat-name">Outils</span>
+          <span class="cat-count">03</span>
+        </div>
+        <div class="skill-icons">
+          <div class="skill-item"><img src="icons/git-original.svg" alt="Git" /><span>Git</span></div>
+          <div class="skill-item"><img src="icons/github-original.svg" alt="GitHub" /><span>GitHub</span></div>
+          <div class="skill-item"><img src="icons/vscode-original.svg" alt="VSCode" /><span>VSCode</span></div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="projects" id="projects">
+    <div class="section-label">Portfolio</div>
+    <div class="projects-header">
+      <h2 class="section-title">Mes Projets</h2>
+      <a href="https://github.com/atsouclaudio" target="_blank" class="all-projects-link">Voir tout sur GitHub →</a>
+    </div>
+
+    <div class="projects-grid">
+
+      <div class="project-card">
+        <div class="project-img-wrap">
+<img src="projects/restaurant.png" alt="Gestion Restaurant" class="project-img" />
+          <a href="https://github.com/devDav65/GestionRestaurant
+" target="_blank" class="project-overlay">Voir sur GitHub</a>
+        </div>
+        <div class="project-info">
+          <span class="project-num">01</span>
+          <h3 class="project-title">Gestion de Restaurant <span class="arrow">→</span></h3>
+          <p class="project-desc">Application de gestion de restaurantCodée enJa permettant la gestion des commandes, des tables et des réservations.</p>
+          <div class="project-tags">
+            <span>Java</span><span>MySQL</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-img-wrap">
+<img src="projects/portfolio.png" alt="Portfolio" class="project-img" />
+          <a href="https://github.com/atsouclaudio/portfolio" target="_blank" class="project-overlay">Voir sur GitHub</a>
+        </div>
+        <div class="project-info">
+          <span class="project-num">02</span>
+          <h3 class="project-title">Mon Portfolio <span class="arrow">→</span></h3>
+          <p class="project-desc">Mon portfCode personnel avec HTML, CSS et JavaScript. Design moderne et responsive avec des animations.</p>
+          <div class="project-tags">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-img-wrap">
+<img src="projects/chiffrement.png" alt="Chiffrement César" class="project-img" />
+          <a href="https://github.com/atsouclaudio/Chiffrement-D-chiffrement
+" target="_blank" class="project-overlay">Voir sur GitHub</a>
+        </div>
+        <div class="project-info">
+          <span class="project-num">03</span>
+          <h3 class="project-title">Chiffrement César <span class="arrow">→</span></h3>
+          <p class="project-desc">Outil de chiffrement et déchiffrement avec le code César et décalage personnalisé en Python.</p>
+          <div class="project-tags">
+            <span>Python</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-img-wrap">
+<img src="projects/ecommerce.png" alt="Site de vente" class="project-img" />
+          <a href="https://github.com/atsouclaudio/Vente-de-mouchoirs
+" target="_blank" class="project-overlay">Voir sur GitHub</a>
+        </div>
+        <div class="project-info">
+          <span class="project-num">04</span>
+          <h3 class="project-title">Site de Vente de Papier Mouchoir <span class="arrow">→</span></h3>
+          <p class="project-desc">Plateforme de vente en ligne pour papier mouchoir avec interface d'admin et gestion des commandes.</p>
+          <div class="project-tags">
+            <span>Python</span><span>Django</span><span>HTML</span><span>CSS</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="section-label">Travaillons ensemble</div>
+    <h2 class="section-title">Contact.</h2>
+    <p class="contact-intro">Vous avez un projet en tête ? Une collaboration à proposer ? Je suis disponible et à l'écoute. N'hésitez pas à m'écrire.</p>
+
+    <div class="contact-grid">
+      <div class="contact-info">
+        <a href="mailto:atsouclaudio@gmail.com" class="contact-item">
+          <span class="contact-icon">✉</span>
+          <div>
+            <span class="contact-label">Email</span>
+            <span class="contact-val">atsouclaudio@gmail.com</span>
+          </div>
+        </a>
+        <a href="tel:+22899940424" class="contact-item">
+          <span class="contact-icon">📞</span>
+          <div>
+            <span class="contact-label">Téléphone</span>
+            <span class="contact-val">+228 99 94 04 24</span>
+          </div>
+        </a>
+
+        <div class="contact-socials-wrap">
+          <span class="contact-label">Réseaux</span>
+          <div class="contact-socials">
+            <a href="https://github.com/atsouclaudio" target="_blank" class="social-btn">⌥ GitHub →</a>
+<a href="https://www.linkedin.com/in/claudio-de-valera-washington-atsou-6a94942b6/" target="_blank" class="social-btn">in LinkedIn →</a>
+            <a href="https://wa.me/22899940424" target="_blank" class="social-btn">WhatsApp →</a>
+          </div>
+        </div>
+      </div>
+
+      <form class="contact-form" id="contactForm">
+        <div class="form-group">
+          <input type="text" name="name" placeholder="Nom complet" required />
+        </div>
+        <div class="form-group">
+          <input type="email" name="email" placeholder="Email" required />
+        </div>
+        <div class="form-group">
+          <input type="text" name="subject" placeholder="Sujet" required />
+        </div>
+        <div class="form-group">
+          <textarea name="message" placeholder="Message" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-full">Envoyer le message →</button>
+        <div class="form-success" id="formSuccess">✓ Message envoyé avec succès !</div>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-left">
+      <span class="footer-logo">AC</span>
+      <span class="footer-tagline">Développeur Web et Mobile Full Stack</span>
+    </div>
+    <div class="footer-center">
+      © 2026 ATSOU Claudio — Tous droits réservés.
+    </div>
+<div class="footer-right">
+      <a href="https://github.com/atsouclaudio" target="_blank">GitHub</a>
+<a href="https://www.linkedin.com/in/claudio-de-valera-washington-atsou-6a94942b6/" target="_blank">LinkedIn</a>
+      <a href="https://wa.me/22899940424" target="_blank">WhatsApp</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
